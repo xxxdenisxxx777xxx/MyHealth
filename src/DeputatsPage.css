@@ -1,0 +1,39 @@
+.brd-category {
+    border-radius: 13px;
+    font-size: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(125, 180, 247), rgb(16, 11, 62));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: 2px;
+    text-align: center;
+}
+
+.brd-category-info {
+    border-radius: 13px;
+    font-size: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(125, 180, 247), rgb(16, 11, 62));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: 2px;
+    text-align: center;
+    max-width: 50%;
+}
+
+.mdl-push {
+    border-radius: 6px;
+    background-color: rgb(211, 226, 253);
+    padding: 2px;
+    text-align: center;
+}
+
+.brd-modal {
+    border-radius: 13px;
+    font-size: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(125, 180, 247), rgb(16, 11, 62));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: 2px;
+}

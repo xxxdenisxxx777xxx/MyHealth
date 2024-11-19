@@ -5,31 +5,32 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
+
 {
     id: 2,
-    fullName: "Ірина Гуль",
-    fraction: "Cлуга народу",
+    fullName: "Андрій Костянтинов",
+    fraction: "Блок Вілкула “Українська перспетива”",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 3,
-    fullName: "Ірина Гуль",
-    fraction: "Cлуга народу",
+    fullName: "Андрій Приложин",
+    fraction: "Громадська сила",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 4,
-    fullName: "Ірина Гуль",
-    fraction: "Cлуга народу",
+    fullName: "Тамара Костянтинова",
+    fraction: "Блок Вілкула “Українська перспетива”",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 5,
@@ -37,7 +38,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 6,
@@ -45,7 +46,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 7,
@@ -53,7 +54,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 8,
@@ -61,7 +62,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 9,
@@ -69,7 +70,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 10,
@@ -77,7 +78,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 11,
@@ -85,7 +86,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 12,
@@ -93,7 +94,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 13,
@@ -101,7 +102,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 14,
@@ -109,7 +110,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 15,
@@ -117,7 +118,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 16,
@@ -125,7 +126,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 17,
@@ -133,7 +134,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 18,
@@ -141,7 +142,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 19,
@@ -149,7 +150,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 20,
@@ -157,7 +158,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 21,
@@ -165,7 +166,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 22,
@@ -173,7 +174,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 23,
@@ -181,7 +182,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 {
     id: 24,
@@ -189,7 +190,7 @@ export const deputies = [
     fraction: "Cлуга народу",
     image: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Rectangle%206491.png",
     inst: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png",
-    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector.png"
+    facebook: "https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/Vector-2.png"
 },
 
 ]
