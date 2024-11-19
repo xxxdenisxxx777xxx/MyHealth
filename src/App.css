@@ -1,0 +1,190 @@
+#root {
+    --swiper-theme-color: black;
+}
+
+@font-face {
+    font-family: DniproCity;
+    src: url('./assets/fonts/DNIPROCITY-REGULAR.OTF') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: DniproCity;
+    src: url('./assets/fonts/DNIPROCITY-BOLD.OTF') format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: DniproCity;
+    src: url('./assets/fonts/DNIPROCITY-MEDIUM.OTF') format('opentype');
+    font-weight: 500;
+}
+
+body {
+    height: 100%;
+    font-family: 'DniproCity' !important;
+    background-color: white;
+}
+
+.image-social {
+    width: 5%;
+    margin-top: 2%;
+}
+
+.image-social2 {
+    margin-left: 2%;
+    width: 5%;
+}
+
+.fotter-dnipro {
+    margin-top: 8%;
+}
+
+.together-social {
+    display: flex;
+}
+
+.img-header {
+    max-width: 100%;
+}
+
+.text-title {
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    position: relative;
+}
+
+.search-input {
+    margin-top: 3%;
+    padding: 2px 2px;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #000000;
+    outline: none;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(125, 180, 247), rgb(16, 11, 62));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    position: relative;
+}
+
+::placeholder {
+    padding: 10px;
+}
+
+.search-input:hover {
+    border-color: #33486b;
+    transition: .5s ease-out all;
+}
+
+.search-container::after {
+    content: url('путь_к_вашему_изображению_иконки_поиска');
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.search-input:focus {
+    border-color: #0a367f;
+}
+
+.search-input::after {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.flx-btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-title {
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(125, 180, 247), rgb(16, 11, 62));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: 2px;
+    text-align: center;
+}
+
+.btn-title:hover {
+    border-color: #33486b;
+    transition: .5s ease-out all;
+}
+
+.griid {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    position: relative;
+}
+
+.card-people {
+    border-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    flex-direction: column;
+}
+
+.img-card {
+    height: auto;
+    max-height: 340px;
+    object-fit: contain;
+    transition: .5s ease-out all;
+}
+
+.img-sch{
+    position: absolute;
+    width: 2%;
+    margin-top: -4.6%;
+    margin-left: 84.3%;
+}
+
+.img-card:hover,
+.img-card:focus,
+.img-card.clicked {
+  border-color: #435d8a;
+}
+
+.name-card {
+    font-size: 23px;
+    margin-top: 4%;
+}
+
+.name-description {
+    font-size: smaller;
+}
+
+.swiper-grid-column>.swiper-wrapper {
+    flex-direction: inherit !important;
+}
+
+.swiper-pagination {
+    position: relative !important;
+    margin-top: 50px;
+}
