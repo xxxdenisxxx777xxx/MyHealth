@@ -15,14 +15,14 @@ export function AdminHome() {
       <div className="mx-auto max-w-2xl py-32 mt-[-70px] sm:py-48 lg:py-56">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            eDnipro Admin System <p className="font-semibold text-indigo-600"></p>
+            MyHealth Admin System <p className="font-semibold text-indigo-600"></p>
           </div>
         </div>
         <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Админ cистема</h1>
-          <p className="mt-6 text-lg leading-8 text-gray-600">Для створення та змінення контенту Депутатів на сайті єДніпро.</p>
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Адмін cистема</h1>
+          <p className="mt-6 text-lg leading-8 text-gray-600">Для створення та змінення контенту на сайті MyHealth.</p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <p className="rounded-md bg-sky-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-950"><Link to="/admin/security">Перейти</Link></p>
+            <p className="rounded-md bg-emerald-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-950"><Link to="/admin/security">Перейти</Link></p>
             <p className="text-sm font-semibold leading-6 text-gray-900"><Link to="/admin/security">до Депутатів<span aria-hidden="true"></span></Link></p>
           </div>
         </div>

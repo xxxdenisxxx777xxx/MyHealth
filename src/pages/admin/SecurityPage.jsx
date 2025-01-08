@@ -151,7 +151,7 @@ function SecurityPage() {
                     <form className="mx-auto mt-16 max-w-xl sm:mt-20">
                         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                             <div className="sm:col-span-2">
-                                <label id="company1" className="block text-sm font-semibold leading-6 text-gray-900">ФІО Депутата</label>
+                                <label id="company1" className="block text-sm font-semibold leading-6 text-gray-900">ФІО Лікаря</label>
                                 <div className="mt-2.5">
                                     <input type="text" name="company" id="company" autoComplete="organization" className="block w-full pl-3 placeholder:pl-0 rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} placeholder="Введіть ФІО депутата" />
                                 </div>
@@ -179,16 +179,16 @@ function SecurityPage() {
                             </div>
 
                             <div className="sm:col-span-2">
-                                <label id="phone-number1" className="block text-sm font-semibold leading-6 text-gray-900">Фракція</label>
+                                <label id="phone-number1" className="block text-sm font-semibold leading-6 text-gray-900">Направлення</label>
                                 <div className="relative mt-2.5">
                                     <div className="absolute inset-y-0 left-0 w-full flex items-center">
                                         <select id="country" name="country" className="h-full w-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm" value={formData.category} onChange={(e) => setFormData({ ...formData, category: e.target.value })}>
-                                            <option value="Європейська солідарність">Європейська солідарність</option>
-                                            <option value="За Україну, за Дніпро!">За Україну, за Дніпро!</option>
-                                            <option value="Пропозиція">Пропозиція</option>
-                                            <option value="Громадьська сила">Громадьська сила</option>
-                                            <option value="Блок Вілкула">Блок Вілкула "Українська перспектива"</option>
-                                            <option value="Слуга народу">Слуга народу</option>
+                                            <option value="Хірургія">Хірургія</option>
+                                            <option value="Педіатрія">Педіатрія</option>
+                                            <option value="Кардіологія">Кардіологія</option>
+                                            <option value="Неврологія">Неврологія</option>
+                                            <option value="Генікологія">Генікологія</option>
+                                            <option value="Терапія">Терапія</option>
                                         </select>
 
                                     </div>
@@ -205,7 +205,7 @@ function SecurityPage() {
                             </div>
 
                             <div className="sm:col-span-2">
-                                <label id="company28" className="block text-sm font-semibold leading-6 text-gray-900">Посилання на світлину Депутата</label>
+                                <label id="company28" className="block text-sm font-semibold leading-6 text-gray-900">Посилання на світлину Лікаря</label>
                                 <div className="mt-2.5">
                                     <input type="text" name="company1" id="company2" autoComplete="organization" className="block w-full pl-3 placeholder:pl-0 rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" value={formData.image} onChange={(e) => setFormData({ ...formData, image: e.target.value })} placeholder="Посилання на зображення" />
                                 </div>
@@ -221,7 +221,7 @@ function SecurityPage() {
                             <div className="sm:col-span-2">
                                 <label id="company25" className="block text-sm font-semibold leading-6 text-gray-900">Email</label>
                                 <div className="mt-2.5">
-                                    <input type="text" name="company5" id="company6" autoComplete="organization" className="block w-full pl-3 placeholder:pl-0 rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} placeholder="Email депутата" />
+                                    <input type="text" name="company5" id="company6" autoComplete="organization" className="block w-full pl-3 placeholder:pl-0 rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} placeholder="Email лікаря" />
                                 </div>
                             </div>
 
@@ -242,21 +242,21 @@ function SecurityPage() {
                             <div className="sm:col-span-2">
                                 <label id="company23" className="block text-sm font-semibold leading-6 text-gray-900">Посилання на Instagram</label>
                                 <div className="mt-2.5">
-                                    <input type="text" name="company12" id="company13" autoComplete="organization" className="block w-full pl-3 placeholder:pl-0 rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" value={formData.instagram} onChange={(e) => setFormData({ ...formData, instagram: e.target.value })} placeholder="Посилання на Instagram депутату" />
+                                    <input type="text" name="company12" id="company13" autoComplete="organization" className="block w-full pl-3 placeholder:pl-0 rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" value={formData.instagram} onChange={(e) => setFormData({ ...formData, instagram: e.target.value })} placeholder="Посилання на Instagram лікаря" />
                                 </div>
                             </div>
 
                             <div className="sm:col-span-2">
                                 <label id="company21" className="block text-sm font-semibold leading-6 text-gray-900">Посилання на Facebook</label>
                                 <div className="mt-2.5">
-                                    <input type="text" name="company14" id="company15" autoComplete="organization" className="block w-full pl-3 placeholder:pl-0 rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" value={formData.facebook} onChange={(e) => setFormData({ ...formData, facebook: e.target.value })} placeholder="Посилання на Facebook депутату" />
+                                    <input type="text" name="company14" id="company15" autoComplete="organization" className="block w-full pl-3 placeholder:pl-0 rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" value={formData.facebook} onChange={(e) => setFormData({ ...formData, facebook: e.target.value })} placeholder="Посилання на Facebook лікаря" />
                                 </div>
                             </div>
 
                             <div className="sm:col-span-2">
                                 <label id="company22" className="block text-sm font-semibold leading-6 text-gray-900">Посилання на Telegram</label>
                                 <div className="mt-2.5">
-                                    <input type="text" name="company17" id="company18" autoComplete="organization" className="block w-full pl-3 placeholder:pl-0 rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" value={formData.telegram} onChange={(e) => setFormData({ ...formData, telegram: e.target.value })} placeholder="Посилання на Telegram депутату" />
+                                    <input type="text" name="company17" id="company18" autoComplete="organization" className="block w-full pl-3 placeholder:pl-0 rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" value={formData.telegram} onChange={(e) => setFormData({ ...formData, telegram: e.target.value })} placeholder="Посилання на Telegram лікаря" />
                                 </div>
                             </div>
 
@@ -275,7 +275,7 @@ function SecurityPage() {
                             </div>
                         </div>
                         <div className="mt-10">
-                            <button type="submit" className="block w-full rounded-md bg-sky-700 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-sky-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-950" onClick={handleCreateItem}>Додати до Бази Данних</button>
+                            <button type="submit" className="block w-full rounded-md bg-emerald-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-950" onClick={handleCreateItem}>Додати до Бази Данних</button>
                         </div>
                     </form>
                 </div>

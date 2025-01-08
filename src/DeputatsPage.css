@@ -2,7 +2,7 @@
     border-radius: 13px;
     font-size: 20px;
     cursor: pointer;
-    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(125, 180, 247), rgb(16, 11, 62));
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(41, 248, 186), rgb(16, 11, 62));
     background-origin: border-box;
     background-clip: content-box, border-box;
     padding: 2px;
@@ -13,7 +13,7 @@
     border-radius: 13px;
     font-size: 20px;
     cursor: pointer;
-    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(125, 180, 247), rgb(16, 11, 62));
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(41, 248, 186), rgb(16, 11, 62));
     background-origin: border-box;
     background-clip: content-box, border-box;
     padding: 2px;
@@ -23,7 +23,7 @@
 
 .mdl-push {
     border-radius: 6px;
-    background-color: rgb(211, 226, 253);
+    background-color: rgb(252, 237, 237);
     padding: 2px;
     text-align: center;
 }
@@ -32,7 +32,7 @@
     border-radius: 13px;
     font-size: 20px;
     cursor: pointer;
-    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(125, 180, 247), rgb(16, 11, 62));
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(41, 248, 186), rgb(16, 11, 62));
     background-origin: border-box;
     background-clip: content-box, border-box;
     padding: 2px;

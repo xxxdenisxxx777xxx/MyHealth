@@ -43,7 +43,7 @@ function DeputatsPage() {
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ ...formData, deputy_id: id })
+                body: JSON.stringify({ ...formData, doctor_id: id })
             });
             if (response.ok) {
                 console.log('Данные на сервер успешно отправлены!')
@@ -85,8 +85,8 @@ function DeputatsPage() {
                 <div className="ml-7">
                     <h1 className='font-medium text-3xl'>{data.name}</h1>
                     <div className='flex gap-3'>
-                        <button type='button' className='brd-category mt-3 min-h-[43px] flex items-center justify-center'><span className='bg-gradient-to-r from-sky-600  to-blue-900 inline-block text-transparent bg-clip-text px-5'>{data.area}</span></button>
-                        <button type='button' className='brd-category mt-3 min-h-[43px] flex items-center justify-center'><span className='bg-gradient-to-r from-sky-600  to-blue-900 inline-block text-transparent bg-clip-text px-5'>{data.category}</span></button>
+                        <button type='button' className='brd-category mt-3 min-h-[43px] flex items-center justify-center'><span className='bg-gradient-to-r from-emerald-400 to-gray-900 inline-block text-transparent bg-clip-text px-5'>{data.area}</span></button>
+                        <button type='button' className='brd-category mt-3 min-h-[43px] flex items-center justify-center'><span className='bg-gradient-to-r from-emerald-400 to-gray-900 inline-block text-transparent bg-clip-text px-5'>{data.category}</span></button>
                     </div>
                     <pre className='font-[500] mt-3 text-xl'>Біографія:</pre>
                     <p className='description text-sm whitespace-pre-wrap break-words'>{data.description}</p>
@@ -100,7 +100,7 @@ function DeputatsPage() {
                         <h3 className='font-[500] text-left text-2xl'><span className='font-medium'>Графік прийому:</span></h3>
                         <h3 className='font-normal mt-3 text-xl'>{data.schedule}</h3>
                         <h3 className='font-normal mt-1 text-xl'>{data.address}</h3>
-                        <button type="submit" className="block w-auto h-[55px] mt-10 rounded-xl bg-indigo-950 px-[55px] py-2.5 text-center text-lg font-sm text-white shadow-sm hover:bg-blue-900  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500" onClick={openModal}>Записатись на прийом</button>
+                        <button type="submit" className="block w-auto h-[55px] mt-10 rounded-xl bg-emerald-500 px-[55px] py-2.5 text-center text-lg font-sm text-white shadow-sm hover:bg-emerald-700  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500" onClick={openModal}>Записатись на прийом</button>
                     </div>
                 </div>
                 <div className='brd-category-info text-left mt-11 min-h-[300px] min-w-[45%] flex flex-col items-center justify-center'>
@@ -108,10 +108,10 @@ function DeputatsPage() {
                         <h3 className=''><span className='font-[500] text-left text-2xl'>Контакти:</span></h3>
                         <p className='font-normal mt-3 text-bold'>{data.phone_number}</p>
                         <p className='font-normal mt-1'>email: {data.email}</p>
-                        <div className='flex gap-4'>
-                            <a href={data.instagram}><img src='https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/inst.png' alt='alt7' className=' mt-10 w-[50px]'></img></a>
-                            <a href={data.facebook}><img src='https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/fb.png' alt='alt7' className='mt-10 w-[50px]'></img></a>
-                            <a href={data.telegram}><img src='https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/tg.png' alt='alt7' className='mt-10 w-[50px]'></img></a>
+                        <div className='flex gap-4 ml-5'>
+                            <a href={data.instagram}><img src='https://github.com/xxxdenisxxx777xxx/MyHealthImage/blob/main/icons8-instagram-circle-120.png?raw=true' alt='alt7' className=' mt-9 w-[59px]'></img></a>
+                            <a href={data.facebook}><img src='https://github.com/xxxdenisxxx777xxx/MyHealthImage/blob/main/facebook-new.png?raw=true' alt='alt7' className='mt-9 w-[59px]'></img></a>
+                            <a href={data.telegram}><img src='https://github.com/xxxdenisxxx777xxx/MyHealthImage/blob/main/telegram.png?raw=true' alt='alt7' className='mt-8 w-[69px]'></img></a>
                         </div>
                     </div>
 
@@ -154,7 +154,7 @@ function DeputatsPage() {
                         </div>
                     </div>
                     <span className='mdl-push mt-7 min-h-[50px] w-full flex items-center justify-center'>Врахуйте, будь ласка, що у випадку запізнення Ваш візит буде скасовано або перенесено!</span>
-                    <button type="submit" className="block mx-auto w-auto h-[55px] mt-10 rounded-xl bg-indigo-950 px-[55px] py-2.5 text-center text-lg font-sm text-white shadow-sm hover:bg-blue-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Записатись на прийом</button>
+                    <button type="submit" className="block mx-auto w-auto h-[55px] mt-10 rounded-xl bg-emerald-500 px-[55px] py-2.5 text-center text-lg font-sm text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Записатись на прийом</button>
                 </form>
             </Modal>
         </div>

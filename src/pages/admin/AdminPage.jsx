@@ -55,7 +55,7 @@ function AdminPage() {
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 items-center z-50">
                     <Link to="/admin">
-                      <img className="h-10 w-auto" src="https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/LogoAI.png" alt="Your Company" />
+                      <img className="h-10 w-auto" src="https://raw.githubusercontent.com/xxxdenisxxx777xxx/MyHealthImage/refs/heads/main/MyHealthPNG.png" alt="Your Company" />
                     </Link>
                   </div>
                   <h6>Admin</h6>
@@ -94,7 +94,7 @@ function AdminPage() {
             <div className="flex flex-1 items-center justify-center sm:items-stretch ">
               <div className="flex flex-shrink-0 items-center z-50">
                 <Link to="/admin">
-                  <img className="mx-auto h-[65px] w-auto" src="https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/LogoAI.png" alt="Your Company" />
+                  <img className="mx-auto h-[65px] w-auto" src="https://raw.githubusercontent.com/xxxdenisxxx777xxx/MyHealthImage/refs/heads/main/MyHealthPNG.png" alt="Your Company" />
                 </Link>
               </div>
               <h6>Admin</h6>
@@ -116,9 +116,6 @@ function AdminPage() {
                 <div>
                   <div class="flex items-center justify-between">
                     <label for="password" class="block text-base font-medium leading-6 text-gray-900">Пароль</label>
-                    <div class="text-sm">
-                      <a class="font-semibold text-sky-700 hover:text-sky-950">Забули пароль?</a>
-                    </div>
                   </div>
                   <div class="mt-2">
                     <input autocomplete="current-password" required class="block w-full h-11 pl-3 placeholder:pl-0 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-900 sm:text-sm sm:leading-6" type="password"
@@ -129,12 +126,12 @@ function AdminPage() {
                 </div>
 
                 <div>
-                  <button type="submit" class="flex w-full justify-center h-9 rounded-md bg-sky-700 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-sky-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-950" onClick={(e) => { e.preventDefault(), handleLogin() }}>Sign in</button>
+                  <button type="submit" class="flex w-full justify-center h-9 rounded-md bg-emerald-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-950" onClick={(e) => { e.preventDefault(), handleLogin() }}>Вхід</button>
                 </div>
               </form>
               <p class="mt-7 text-center text-sm text-gray-500">
                 Немає профілю ?
-                <p class="font-semibold leading-6 text-sky-700 hover:text-sky-950">ednipro.program@gmail.com</p>
+                <p class="font-semibold leading-6 text-emerald-500 hover:text-emerald-700">program@gmail.com</p>
               </p>
             </div>
           </div>

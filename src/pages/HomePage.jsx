@@ -37,61 +37,64 @@ const HomePage = () => {
         setSearchInput(event.target.value);
         const filteredDeputies = data.filter(deputy => deputy.name.toLowerCase().includes(event.target.value.toLowerCase()));
         setFilteredData(filteredDeputies);
+        console.log(filteredDeputies)
     };
 
     if (!data) {
         return <div>Loading...</div>;
     }
-    console.log(data)
+    console.log(data);
+    console.log(data.map(item => item.category)); // Убедитесь, что категории совпадают
+
     return (
         <div className='mx-auto max-w-[1280px] '>
 
-            <h2 className='text-center font-medium text-[25px] mt-[50px] mb-[0px]'>Знайти депутата за адресою</h2>
+            <h2 className='text-center font-medium text-[25px] mt-[50px] mb-[0px]'>Знайти лікаря за адресою</h2>
             <label htmlFor="">
                 <input
                     type='text'
-                    placeholder='Введіть адресу депутата'
+                    placeholder='Введіть адресу лікаря'
                     className='search-input mb-6 w-full h-[55px]'
                     value={searchInput}
                     onChange={handleSearchInputChange}
                 />
 
             </label>
-            <h1 className='text-center font-medium text-[25px] mt-[50px] mb-[15px]'>або за фракцією</h1>
+            <h1 className='text-center font-medium text-[25px] mt-[50px] mb-[15px]'>або за направленням</h1>
             <br />
             <div className='grid grid-cols-3 gap-5 mb-10 min-h-[]'>
                 <button
                     type='button'
-                    className={`btn-title min-h-[90px] ${selectedBtnTitle === 'ПРОПОЗИЦІЯ' ? 'active' : ''} active:bg-sky-700  focus:ring focus:ring-sky-900`}
-                    onClick={(event) => handleBtnClick('ПРОПОЗИЦІЯ', event)}
+                    className={`btn-title min-h-[90px] ${selectedBtnTitle === 'ТЕРАПІЯ' ? 'active' : ''} active:bg-sky-700  focus:ring focus:ring-sky-900`}
+                    onClick={(event) => handleBtnClick('ТЕРАПІЯ', event)}
                 >
-                    ПРОПОЗИЦІЯ
+                    Терапія
                 </button>
                 <button
                     type='button'
-                    className={`btn-title min-h-[90px] ${selectedBtnTitle === 'За Україну, за Дніпро!' ? 'active' : ''} active:bg-sky-700  focus:ring focus:ring-sky-900`}
-                    onClick={(event) => handleBtnClick('За Україну, за Дніпро!', event)}
+                    className={`btn-title min-h-[90px] ${selectedBtnTitle === 'Хірургія' ? 'active' : ''} active:bg-sky-700  focus:ring focus:ring-sky-900`}
+                    onClick={(event) => handleBtnClick('Хірургія', event)}
                 >
-                    ЗА УКРАЇНУ! ЗА ДНІПРО!
+                    Хірургія
                 </button>
                 <button
                     type='button'
 
-                    className='btn-title min-h-[90px] active:bg-sky-700  focus:ring focus:ring-sky-900' onClick={(event) => handleBtnClick('ЄВРОПЕЙСЬКА СОЛІДАРНІСТЬ', event)}>
-                    ЄВРОПЕЙСЬКА СОЛІДАРНІСТЬ
+                    className='btn-title min-h-[90px] active:bg-sky-700  focus:ring focus:ring-sky-900' onClick={(event) => handleBtnClick('Педіатрія', event)}>
+                    Педіатрія
                 </button>
                 <button
                     type='button'
-                    className='btn-title min-h-[90px] active:bg-sky-700  focus:ring focus:ring-sky-900' onClick={(event) => handleBtnClick('ГРОМАДЬСЬКА СИЛА', event)}>
-                    ГРОМАДСЬКА СИЛА
+                    className='btn-title min-h-[90px] active:bg-sky-700  focus:ring focus:ring-sky-900' onClick={(event) => handleBtnClick('Кардіологія', event)}>
+                    Кардіологія
                 </button>
                 <button
                     type='button'
-                    className='btn-title min-h-[90px] active:bg-sky-700  focus:ring focus:ring-sky-900' onClick={(event) => handleBtnClick('БЛОК ВІЛКУЛА', event)}>
-                    БЛОК ВІЛКУЛА «УКРАЇНСЬКА ПЕРСПЕКТИВА»
+                    className='btn-title min-h-[90px] active:bg-sky-700  focus:ring focus:ring-sky-900' onClick={(event) => handleBtnClick('Неврологія', event)}>
+                    Неврологія
                 </button>
-                <button className='btn-title min-h-[90px] active:bg-sky-700  focus:ring focus:ring-sky-900' onClick={(event) => handleBtnClick('СЛУГА НАРОДУ', event)}>
-                    СЛУГА НАРОДУ
+                <button className='btn-title min-h-[90px] active:bg-sky-700  focus:ring focus:ring-sky-900' onClick={(event) => handleBtnClick('Гінекологія', event)}>
+                    Гінекологія
                 </button>
 
             </div>

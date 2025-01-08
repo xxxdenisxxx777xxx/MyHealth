@@ -18,7 +18,7 @@ function App() {
       <main className='w-full mx-auto flex-1 my-6 max-w-screen-xl px-2.5'>
         <AppRoute />
       </main>
-      <Footer />
+
     </div>
   );
 }

@@ -1,5 +1,5 @@
 {
-  "name": "edniproproj",
+  "name": "myhealth",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.19",
-    "@heroicons/react": "^2.1.3",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
     "axios": "^1.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

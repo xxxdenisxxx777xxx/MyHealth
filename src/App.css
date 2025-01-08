@@ -69,7 +69,7 @@ body {
     font-size: 16px;
     color: #000000;
     outline: none;
-    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(125, 180, 247), rgb(16, 11, 62));
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(41, 248, 186), rgb(16, 11, 62));
     background-origin: border-box;
     background-clip: content-box, border-box;
     position: relative;
@@ -121,7 +121,7 @@ body {
     border-radius: 8px;
     font-size: 20px;
     cursor: pointer;
-    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(125, 180, 247), rgb(16, 11, 62));
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(41, 248, 186), rgb(16, 11, 62));
     background-origin: border-box;
     background-clip: content-box, border-box;
     padding: 2px;

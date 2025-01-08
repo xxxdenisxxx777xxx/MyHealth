@@ -15,7 +15,7 @@ export const AdminLayout = ({ children }) => {
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="flex flex-shrink-0 items-center z-50">
                                     <Link to="/admin">
-                                        <img className="h-10 w-auto" src="https://raw.githubusercontent.com/xxxdenisxxx777xxx/eDniproPrct/main/LogoAI.png" alt="Your Company" />
+                                        <img className="h-10 w-auto" src="https://raw.githubusercontent.com/xxxdenisxxx777xxx/MyHealthImage/refs/heads/main/MyHealthPNG.png" alt="Your Company" />
                                     </Link>
                                 </div>
                                 <h6>Admin</h6>
@@ -23,7 +23,7 @@ export const AdminLayout = ({ children }) => {
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex space-x-4">
                                     <p className="bg-white-400 text-gray-600 rounded-md px-3 z-50 py-2 text-sm font-medium" aria-current="page"><Link to="/admin/note"><span className='text-lg'>Записи</span></Link></p>
-                                    <p className="bg-white-400 text-gray-600 rounded-md px-3 z-50 py-2 text-sm font-medium" aria-current="page"><Link to="/admin/security"><span className='text-lg'>Депутаты</span></Link></p>
+                                    <p className="bg-white-400 text-gray-600 rounded-md px-3 z-50 py-2 text-sm font-medium" aria-current="page"><Link to="/admin/security"><span className='text-lg'>Лікарі</span></Link></p>
 
                                 </div>
                             </div>
